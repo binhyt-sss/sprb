@@ -1,0 +1,129 @@
+.container {
+  font-family: Arial, sans-serif;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo { 
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.headerText {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff5722;
+}
+
+.headerPolicies {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.searchBar {
+  background-color: #ff5722;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.searchInput {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+.searchButton {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.mainContent {
+  padding: 20px;
+}
+
+.menuContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItem {
+  margin-bottom: 15px;
+  margin: 10px;
+}
+.menuItem :selection{
+  color: rgb(207, 107, 24);
+}
+
+.menuTitle {
+  background-color: #f5f5f5;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menuContent {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 30%;
+  
+}
+
+.right {
+  width: 70%;
+}
+
+.titlep {
+  font-size: 24px;
+  font-weight: bold;
+  color: #060100;
+  margin-bottom: 20px;
+}
+
+.headerp {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff5722;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.contentp {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.imagep {
+  width: 63%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+  display: block; 
+  margin-bottom: 20px; 
+}

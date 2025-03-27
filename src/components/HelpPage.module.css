@@ -1,0 +1,110 @@
+.container {
+    text-align: center;
+    background-color: rgb(207, 107, 24); 
+    color: white;
+    height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: rgb(207, 107, 24);
+  }
+  
+  .logo {
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .headerText {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .headerPolicies {
+    font-size: 14px;
+    color: #000;
+  }
+  
+  .mainContent {
+    margin-top: 50px;
+    
+  }
+  
+  .mainContent h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 107, 24);
+  }
+  
+  .searchInput {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .searchButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #fff;
+    color: rgb(207, 107, 24);
+    cursor: pointer;
+  }
+  .categories {
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .categoryGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .categoryItem {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    color: #000;
+  }
+  
+  .categoryItem:hover {
+    background-color: #13d924;
+  }
+  
+  .faqs {
+    margin: 20px 0;
+    text-align: left;
+    background-color: rgb(207, 107, 24);
+    text-align: left;
+  }
+  
+  .faqs ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .faqs li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  .sectionTitle {
+    text-align: left; /* Align section titles to the left */
+  }

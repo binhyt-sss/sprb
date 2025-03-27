@@ -1,0 +1,18 @@
+.menuItem {
+  margin-bottom: 20px;
+}
+
+.menuTitle {
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.menuContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuContent > * {
+  margin-bottom: 10px;
+}
